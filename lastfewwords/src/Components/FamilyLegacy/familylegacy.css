@@ -1,0 +1,73 @@
+.family-legacy-container {
+    background-color: #1f1f1f;
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.family-header {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.back-icon {
+    font-size: 24px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+h2 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+.family-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+.family-member {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.family-member.wide {
+    grid-column: span 2;
+}
+.family-member p {
+    margin: 5px 0;
+}
+.storage {
+    color: #9b8af7;
+}
+.add-family-member {
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
+.add-family-member .fa-plus {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  
+  
+  

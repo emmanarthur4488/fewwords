@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.otp-header{
+    border: 1px solid #cccccc;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 3rem;
+    background: #00807a;
+}
+.otp-header h2{
+    color: #e6e6e6;
+}
+.user-shield{
+    height: 19px;
+    width: 19px;
+    background: whitesmoke;
+    color: #00807a;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+.otp-header label{
+    color: #e6e6e6;
+    font-weight: bold;
+}
+.otp-btn{
+    background: #3e6866;
+    color: #e6e6e6;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.otp-spinner{
+    padding-right: 2px;
+}
+.fa-refresh{
+    color: #e6e6e6;
+}
+.otp-btn span{
+    padding-left: 3px;
+}

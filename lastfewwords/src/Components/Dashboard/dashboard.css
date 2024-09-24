@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.dashboard-header{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-icon{
+    width: 20px;
+    height: 20px;
+}
+.user-icon{
+    width: 20px;
+    height: 20px;
+}
+.welcome-text h1{
+    font-size: 25px;
+    padding-top: 2rem;
+}
+.storage-space h2{
+    color: darkblue;
+    font-size: 18px;
+    padding: 1rem;
+}
+.features-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+}
+.feature-item{
+    background: whitesmoke;
+    box-shadow: 0 4px 6px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.dashboard-footer{
+    display: flex;
+    justify-content: space-evenly;
+}

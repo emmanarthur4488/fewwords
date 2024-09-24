@@ -1,0 +1,50 @@
+.otp-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.otp-box {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+}
+.lock-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+p {
+    color: #aaaaaa;
+    margin-bottom: 20px;
+}
+.otp-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.otp-inputs input {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 6px;
+    border: none;
+    background-color: #333333;
+    color: white;
+}
+.resend-link {
+    color: #aaaaaa;
+    margin-top: 10px;
+}
+.resend-link a {
+    color: #6a4efc;
+    text-decoration: none;
+}
+.resend-link a:hover {
+    text-decoration: underline;
+}
